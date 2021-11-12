@@ -139,7 +139,12 @@ main {
   }
 
   .content__bottom {
+    margin-top: 2rem;
     display: flex;
+  }
+
+  .content__bottom__item {
+    height: 15rem;
   }
 
   .content__top__rating {
@@ -165,5 +170,13 @@ main {
   }
   .content__top__rating__item:nth-child(2) {
     margin-right: 2.5rem;
+  }
+
+  .content__bottom__item:nth-child(2) {
+    margin-top: 2rem;
+  }
+
+  .content__bottom__item:last-child {
+    margin-top: 3.2rem;
   }
 }
